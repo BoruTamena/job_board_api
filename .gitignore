@@ -1,0 +1,12 @@
+.vscode/
+.idea/
+tmp/
+config/config.yaml
+__debug_bin
+lint_report.xml
+assets
+testDir
+dev.mk
+.pre-commit-config.yaml
+platform/clustering/__pycache__
+cockroach-data/
