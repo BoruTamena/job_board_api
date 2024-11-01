@@ -1,5 +1,10 @@
 package logger
 
+const (
+	Opath   = "stdout"
+	errpath = "stderr"
+)
+
 type CfgOptions struct {
 	// options
 	LevelSplit bool // default false

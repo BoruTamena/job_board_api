@@ -11,8 +11,14 @@ type logger struct {
 
 func NewLogger(cfg CfgOptions) Logger {
 
+	// get config
+
+	config := GetConfig(cfg.Dev)
+
 	// level split
-	return logger{}
+	return logger{
+		cfg: cfg,
+	}
 }
 
 func (l logger) Info(msg string)  {}
