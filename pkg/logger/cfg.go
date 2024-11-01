@@ -15,6 +15,6 @@ type CfgOptions struct {
 	// url or folder path to write internal error to.
 	// default stderr
 	Err_path string
-	// enable development mode, defaul value is false
+	// enable development mode, default value is true
 	Dev Mode
 }
